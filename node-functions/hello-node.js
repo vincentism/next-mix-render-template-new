@@ -1,3 +1,3 @@
-export default function onRequest(context) {
+export default async function onRequest(context) {
   return new Response('Hello Node!')
 }
